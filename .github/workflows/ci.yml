@@ -11,7 +11,7 @@ jobs:
     # Run the real build on an arch linux docker container
     # Ubuntu has out of date tools and sometimes system updates
     # require manual interaction so its unusable for CI
-    container: archlinux/base
+    container: archlinux/latest
 
     # Use a build matrix so GCC and Clang don't have to have different
     # jobs in this yaml file
